@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-barlow: var(--font-barlow-condensed);
+  --font-anton: var(--font-anton);
+  --font-syne: var(--font-syne-mono);
+}
+
+html, body {
+  background: #FFFFFF;
+  color: #111111;
+  font-family: var(--font-syne), monospace;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: #CC2200;
+  color: #FFFFFF;
+}
+
+.font-barlow { font-family: var(--font-barlow), sans-serif; }
+.font-anton { font-family: var(--font-anton), sans-serif; }
+.font-syne { font-family: var(--font-syne), monospace; }
+
+input::placeholder {
+  color: #CC2200 !important;
+  opacity: 0.6;
+}
