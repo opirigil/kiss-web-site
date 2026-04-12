@@ -5,19 +5,8 @@ export default function StoryPage() {
       style={{ background: "#FFFFFF", padding: "120px 48px" }}
     >
       <div className="max-w-2xl">
-        <h1
-          className="font-anton"
-          style={{
-            fontSize: "clamp(3rem, 8vw, 6rem)",
-            letterSpacing: "-0.02em",
-            color: "#CC2200",
-            lineHeight: 1,
-          }}
-        >
-          STORY
-        </h1>
         <p
-          className="font-syne mt-12"
+          className="font-syne"
           style={{ fontSize: "0.6rem", lineHeight: 2.4, letterSpacing: "0.05em", color: "#111111" }}
         >
           WILD CLUB IS NOT A BRAND. IT&apos;S AN ALTER EGO.

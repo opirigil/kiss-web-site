@@ -64,7 +64,7 @@ export default function Home() {
         <h2
           className="font-barlow font-black italic"
           style={{
-            fontSize: "clamp(3.5rem, 10vw, 9rem)",
+            fontSize: "clamp(2rem, 6vw, 5rem)",
             lineHeight: 0.82,
             color: "#CC2200",
           }}
@@ -74,7 +74,7 @@ export default function Home() {
         <h2
           className="font-barlow font-black italic"
           style={{
-            fontSize: "clamp(3.5rem, 10vw, 9rem)",
+            fontSize: "clamp(2rem, 6vw, 5rem)",
             lineHeight: 0.82,
             color: "#CC2200",
           }}
@@ -102,7 +102,7 @@ export default function Home() {
         <h3
           className="font-barlow font-black italic"
           style={{
-            fontSize: "clamp(2rem, 6vw, 5rem)",
+            fontSize: "clamp(1.8rem, 4vw, 3.5rem)",
             lineHeight: 0.85,
             color: "#CC2200",
           }}
