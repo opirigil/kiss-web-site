@@ -7,7 +7,7 @@
 }
 
 html, body {
-  background: #FFFFFF;
+  background: #F5F0E8;
   color: #111111;
   font-family: var(--font-syne), monospace;
   margin: 0;
@@ -15,8 +15,19 @@ html, body {
 }
 
 ::selection {
-  background: #CC2200;
-  color: #FFFFFF;
+  background: #C41E00;
+  color: #F5F0E8;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
 }
 
 .font-barlow { font-family: var(--font-barlow), sans-serif; }
@@ -24,6 +35,6 @@ html, body {
 .font-syne { font-family: var(--font-syne), monospace; }
 
 input::placeholder {
-  color: #CC2200 !important;
+  color: #C41E00 !important;
   opacity: 0.6;
 }

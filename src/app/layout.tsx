@@ -27,7 +27,7 @@ const syneMono = Syne_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "WILD CLUB",
+  title: "WILD CLUB STUDIOS",
   description: "Something is coming.",
 };
 

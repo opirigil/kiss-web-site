@@ -23,7 +23,7 @@ export default function Home() {
               fontSize: "clamp(5rem, 14vw, 13rem)",
               lineHeight: 0.82,
               letterSpacing: "-0.02em",
-              color: "#CC2200",
+              color: "#C41E00",
             }}
           >
             WILD
@@ -34,10 +34,21 @@ export default function Home() {
               fontSize: "clamp(5rem, 14vw, 13rem)",
               lineHeight: 0.82,
               letterSpacing: "-0.02em",
-              color: "#CC2200",
+              color: "#C41E00",
             }}
           >
             CLUB
+          </div>
+          <div
+            className="font-anton"
+            style={{
+              fontSize: "clamp(5rem, 14vw, 13rem)",
+              lineHeight: 0.82,
+              letterSpacing: "-0.02em",
+              color: "#C41E00",
+            }}
+          >
+            STUDIOS
           </div>
         </div>
         <p
@@ -46,9 +57,9 @@ export default function Home() {
             marginTop: 60,
             fontSize: "clamp(1.2rem, 3vw, 2rem)",
             letterSpacing: "-0.02em",
-            color: "#FFFFFF",
+            color: "#F5F0E8",
             lineHeight: 1,
-            background: "#CC2200",
+            background: "#C41E00",
             padding: "10px 20px",
           }}
         >
@@ -59,14 +70,14 @@ export default function Home() {
       {/* Block 2 — Statement */}
       <section
         className="w-full text-center"
-        style={{ background: "#FFFFFF", padding: "120px 48px" }}
+        style={{ background: "#F5F0E8", padding: "120px 48px" }}
       >
         <h2
           className="font-barlow font-black italic"
           style={{
             fontSize: "clamp(2rem, 6vw, 5rem)",
             lineHeight: 0.82,
-            color: "#CC2200",
+            color: "#C41E00",
           }}
         >
           TOUCH ONCE.
@@ -76,7 +87,7 @@ export default function Home() {
           style={{
             fontSize: "clamp(2rem, 6vw, 5rem)",
             lineHeight: 0.82,
-            color: "#CC2200",
+            color: "#C41E00",
           }}
         >
           REMEMBER FOREVER.
@@ -87,7 +98,7 @@ export default function Home() {
             marginTop: 60,
             fontSize: "0.7rem",
             letterSpacing: "0.3em",
-            color: "#CC2200",
+            color: "#C41E00",
           }}
         >
           DESIGNED IN GENEVA
@@ -97,14 +108,14 @@ export default function Home() {
       {/* Block 3 — CTA */}
       <section
         className="w-full text-center"
-        style={{ background: "#FFFFFF", padding: "80px 48px" }}
+        style={{ background: "#F5F0E8", padding: "80px 48px" }}
       >
         <h3
           className="font-barlow font-black italic"
           style={{
             fontSize: "clamp(1.8rem, 4vw, 3.5rem)",
             lineHeight: 0.85,
-            color: "#CC2200",
+            color: "#C41E00",
           }}
         >
           SOMETHING IS COMING.
@@ -115,7 +126,7 @@ export default function Home() {
             marginTop: 20,
             fontSize: "0.52rem",
             letterSpacing: "0.3em",
-            color: "#CC2200",
+            color: "#C41E00",
           }}
         >
           BE THE FIRST TO KNOW.
@@ -132,11 +143,11 @@ export default function Home() {
               width: 320,
               maxWidth: "80vw",
               border: "none",
-              borderBottom: "1px solid #CC2200",
+              borderBottom: "1px solid #C41E00",
               background: "transparent",
               fontSize: "0.5rem",
               letterSpacing: "0.2em",
-              color: "#CC2200",
+              color: "#C41E00",
               padding: "8px 0",
             }}
           />
@@ -146,13 +157,13 @@ export default function Home() {
       {/* Footer */}
       <footer
         className="w-full flex items-center justify-between"
-        style={{ background: "#FFFFFF", padding: "24px 48px", borderTop: "1px solid #EEEEEE" }}
+        style={{ background: "#F5F0E8", padding: "24px 48px", borderTop: "1px solid #EEEEEE" }}
       >
         <span
           className="font-syne uppercase"
-          style={{ fontSize: "0.55rem", letterSpacing: "0.2em", color: "#CC2200" }}
+          style={{ fontSize: "0.55rem", letterSpacing: "0.2em", color: "#C41E00" }}
         >
-          WILD CLUB
+          WILD CLUB STUDIOS
         </span>
         <span
           className="font-syne uppercase"

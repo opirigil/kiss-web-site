@@ -21,21 +21,21 @@ export default function BurgerMenu() {
         <span
           className="block w-5 h-[1.5px] transition-all duration-300"
           style={{
-            background: open ? "#FFFFFF" : "#CC2200",
+            background: open ? "#F5F0E8" : "#C41E00",
             transform: open ? "rotate(45deg) translateY(6.5px)" : "none",
           }}
         />
         <span
           className="block w-5 h-[1.5px] transition-all duration-300"
           style={{
-            background: open ? "#FFFFFF" : "#CC2200",
+            background: open ? "#F5F0E8" : "#C41E00",
             opacity: open ? 0 : 1,
           }}
         />
         <span
           className="block w-5 h-[1.5px] transition-all duration-300"
           style={{
-            background: open ? "#FFFFFF" : "#CC2200",
+            background: open ? "#F5F0E8" : "#C41E00",
             transform: open ? "rotate(-45deg) translateY(-6.5px)" : "none",
           }}
         />
@@ -44,7 +44,7 @@ export default function BurgerMenu() {
       {open && (
         <div
           className="fixed inset-0 z-[100] flex flex-col items-center justify-center gap-10"
-          style={{ background: "#CC2200" }}
+          style={{ background: "#C41E00" }}
         >
           {LINKS.map((item) => (
             <a
@@ -54,7 +54,7 @@ export default function BurgerMenu() {
               style={{
                 fontSize: "clamp(3rem, 8vw, 6rem)",
                 letterSpacing: "-0.02em",
-                color: "#FFFFFF",
+                color: "#F5F0E8",
                 lineHeight: 1,
                 textDecoration: "none",
               }}
