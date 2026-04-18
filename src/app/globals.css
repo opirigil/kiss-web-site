@@ -30,6 +30,10 @@ body::after {
   mix-blend-mode: multiply;
 }
 
+body.no-chrome::after {
+  display: none;
+}
+
 .font-barlow { font-family: var(--font-barlow), sans-serif; }
 .font-anton { font-family: var(--font-anton), sans-serif; }
 .font-syne { font-family: var(--font-syne), monospace; }

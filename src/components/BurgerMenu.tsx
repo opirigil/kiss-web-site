@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const LINKS = [
   { label: "HOME", href: "/" },
@@ -8,8 +9,13 @@ const LINKS = [
   { label: "CONTACT", href: "/contact" },
 ];
 
+const HIDDEN_ROUTES = ["/avatar-full", "/avatar-mono", "/assets"];
+
 export default function BurgerMenu() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  if (HIDDEN_ROUTES.some((r) => pathname === r)) return null;
 
   return (
     <>
